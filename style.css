@@ -1,0 +1,48 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+canvas{
+    max-width: 400px;
+    justify-self: center;
+    align-items: center;
+    margin-top: 15%;   
+}
+
+.menu{
+    color: white;
+    position: absolute;
+    background-color: black;
+    justify-self: center;
+    align-items: center;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 10% ;
+}
+ul{
+    font-size: 30px;
+    list-style: none;
+    line-height: 3rem;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: lime;
+}
